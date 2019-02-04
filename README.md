@@ -15,3 +15,11 @@ docker tag kainonly/kube-scheduler:v1.13.3 k8s.gcr.io/kube-scheduler:v1.13.3
 // or
 docker tag ccr.ccs.tencentyun.com/kainonly/kube-scheduler:v1.13.3 k8s.gcr.io/kube-scheduler:v1.13.3
 ```
+
+删除镜像
+
+```shell
+docker rmi kainonly/kube-scheduler:v1.13.3
+// or
+docker rmi ccr.ccs.tencentyun.com/kainonly/kube-scheduler:v1.13.3
+```
